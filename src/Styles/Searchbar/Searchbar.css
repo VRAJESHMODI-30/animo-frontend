@@ -1,0 +1,21 @@
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    background: #353535;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0% 1%;
+}
+
+.searchbar input {
+    border-radius: 20px;
+    color: white;
+    height: 100%;
+    width: 100%;
+    background: var(--grey-shade);
+    border: none;
+    outline: none;
+}

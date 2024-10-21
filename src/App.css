@@ -2,4 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  /* font-size: 20px; */
+}
+
+:root {
+  --theme-color: #6d0eb2;
+  --display-color: #161616;
+  --text-color: #FFFFFF;
+  --grey-shade:#353535;
+}
+
+
+.App{
+  height: 100vh;
+  width: 100vw;
+  background: var(--display-color);
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  color: var(--text-color);
 }
